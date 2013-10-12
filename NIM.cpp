@@ -54,7 +54,7 @@ int main( )
 		}
 	}
 	while ( val != 3 );
-
+	cout << "Gustav H G var her." << endl;
 	return 0;
 }
 
@@ -68,7 +68,7 @@ void spila( )
 	cout << "Veljum med hve margar hrugur vid spilum. " << endl;
 	cout << "Yttu a einhvern lykil: " << endl;
 
-	srand( time( 0 ) );	
+	srand( time( 0 ) );
 
 	hrugufjoldi = ( (rand( ) % 8 ) + 2 );
 	cout << "Vid spilum med " << hrugufjoldi << " hrugur. " << endl;
@@ -204,7 +204,7 @@ void tolva( int* hruga )
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytur ur hrugu nr. ";
 	}
-	else 
+	else
 	{
 		cout << "      Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
 	}
