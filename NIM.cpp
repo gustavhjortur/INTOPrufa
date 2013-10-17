@@ -55,6 +55,8 @@ int main( )
 	}
 	while ( val != 3 );
 	cout << "Gustav H G var her." << endl;
+	cout << "Olafur Torfason var her." << endl;
+
 	return 0;
 }
 
